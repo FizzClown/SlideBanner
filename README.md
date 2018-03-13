@@ -1,6 +1,22 @@
 # SlideBanner
 自己封装的一个自定义Banner
 
+```Java
+//Project Gradle中引入
+allprojects {
+		repositories {
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+```Java
+//添加依赖
+dependencies {
+	        compile 'com.github.FizzClown:SlideBanner:1.0.0'
+	}
+```
+
 ### 圆形指示器的使用方法
 1.XML文件中引入MyViewPager和CircleIndicator
 ```Xml

@@ -86,3 +86,51 @@ public class MainActivity extends AppCompatActivity implements OnItemClickListen
 ```
 ###### RectIndicator和CircleIndicator的使用方法一样，不能同时设置两种指示器
 ###### 再次提示：数据源的数量和ViewPager的Item数量及Indicator的Item的数量要一致
+
+### 属性介绍
+```Xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //ViewPager
+    <declare-styleable name="MyViewPager">
+        //viewPager的数量
+        <attr name="count_viewpager" format="integer" />
+        //图片显示间隔
+        <attr name="time_space" format="integer" />
+    </declare-styleable>
+
+    //圆形指示器
+    <declare-styleable name="CircleIndicator">
+        //圆形指示器Item数量
+        <attr name="circle_count" format="integer" />
+        //滑动圆形的颜色
+        <attr name="circle_fill_color" format="color" />
+        //没啥效果
+        <attr name="circle_stoke_width" format="dimension" />
+        //滑动小球的半径
+        <attr name="radius" format="dimension" />
+        //静态小球之间的间距
+        <attr name="circle_divider_width" format="dimension" />
+        //静态小球的颜色
+        <attr name="circle_empty_color" format="color"/>
+    </declare-styleable>
+
+    //矩形指示器
+    <declare-styleable name="RectIndicator">
+        //Item的数量
+        <attr name="rect_count" format="integer" />
+        //移动矩形的颜色
+        <attr name="rect_fill_color" format="color" />
+        //静态矩形的边框大小
+        <attr name="rect_stoke_width" format="dimension" />
+        //静态矩形的边框颜色
+        <attr name="rect_stoke_color" format="color"/>
+        //中间字体的颜色
+        <attr name="rect_text_color" format="color"/>
+        //矩形的边长
+        <attr name="rect_length" format="dimension" />
+        //静态矩形件的间距
+        <attr name="rect_divider_width" format="dimension" />
+    </declare-styleable>
+</resources>
+```

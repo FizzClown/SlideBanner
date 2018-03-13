@@ -4,17 +4,17 @@
 ```Java
 //Project Gradle中引入
 allprojects {
-		repositories {
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 ```Java
 //添加依赖
 dependencies {
-	        compile 'com.github.FizzClown:SlideBanner:1.0.0'
-	}
+	compile 'com.github.FizzClown:SlideBanner:1.0.0'
+}
 ```
 
 ### 圆形指示器的使用方法

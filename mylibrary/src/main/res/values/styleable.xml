@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyViewPager">
+        <attr name="count_viewpager" format="integer" />
+        <attr name="time_space" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleIndicator">
+        <attr name="circle_count" format="integer" />
+        <attr name="circle_fill_color" format="color" />
+        <attr name="circle_stoke_width" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="circle_divider_width" format="dimension" />
+        <attr name="circle_empty_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RectIndicator">
+        <attr name="rect_count" format="integer" />
+        <attr name="rect_fill_color" format="color" />
+        <attr name="rect_stoke_width" format="dimension" />
+        <attr name="rect_stoke_color" format="color"/>
+        <attr name="rect_text_color" format="color"/>
+        <attr name="rect_length" format="dimension" />
+        <attr name="rect_divider_width" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.lq.myapplication.MainActivity">
+
+    <com.lq.myapplication.MyViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:count_viewpager="5"
+        app:time_space="5000" />
+
+    <com.lq.myapplication.CircleIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp"
+        app:circle_count="5" />
+
+    <!--<com.lq.myapplication.RectIndicator-->
+    <!--android:id="@+id/rect_indicator"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_marginStart="30dp"-->
+    <!--android:layout_marginTop="180dp"-->
+    <!--app:rect_count="5" />-->
+</FrameLayout>

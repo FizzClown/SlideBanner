@@ -1,6 +1,8 @@
 # SlideBanner
 自己封装的一个自定义Banner
 
+![image](http://i1.bvimg.com/636232/5a277d67bcf35d58.gif)
+
 ```Java
 //Project Gradle中引入
 allprojects {

@@ -5,8 +5,6 @@
 
 [点击查看矩形指示器效果](http://i2.bvimg.com/636232/b23ab1b72d2d2b06.gif)
 
-![image](http://i2.bvimg.com/636232/b23ab1b72d2d2b06.gif)
-
 ```Java
 //Project Gradle中引入
 allprojects {

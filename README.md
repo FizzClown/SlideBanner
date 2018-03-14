@@ -1,7 +1,7 @@
 # SlideBanner
 自己封装的一个自定义Banner
 
-[img]http://i1.bvimg.com/636232/5a277d67bcf35d58.gif[/img]
+![image](http://i1.bvimg.com/636232/5a277d67bcf35d58.gif)
 
 ```Java
 //Project Gradle中引入

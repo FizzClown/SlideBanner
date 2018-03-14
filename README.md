@@ -1,7 +1,9 @@
 # SlideBanner
 自己封装的一个自定义Banner
 
-[点击查看效果](http://i1.bvimg.com/636232/5a277d67bcf35d58.gif)
+[点击查看圆形指示器效果](http://i1.bvimg.com/636232/5a277d67bcf35d58.gif)
+
+[点击查看矩形指示器效果](http://i2.bvimg.com/636232/b23ab1b72d2d2b06.gif)
 
 ```Java
 //Project Gradle中引入

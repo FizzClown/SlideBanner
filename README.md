@@ -1,6 +1,7 @@
 # SlideBanner
 自己封装的一个自定义Banner
-![img](blob:http://www.gif5.net/1f6e38cf-f699-457c-9f43-9a0360f4d716)
+
+![image](https://github.com/Yesi-hoang/TaoBaoTopLine/blob/master/Gif/TaoBaoTopLineGif.gif)
 
 ```Java
 //Project Gradle中引入
